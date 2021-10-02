@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -142,12 +142,12 @@ TextureImporter:
       name: spriteshitwalk_0
       rect:
         serializedVersion: 2
-        x: 47
-        y: 826
-        width: 464
-        height: 486
+        x: 50
+        y: 824
+        width: 513
+        height: 638
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,12 +163,12 @@ TextureImporter:
       name: spriteshitwalk_1
       rect:
         serializedVersion: 2
-        x: 703
+        x: 630
         y: 824
-        width: 342
-        height: 394
+        width: 512
+        height: 638
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: spriteshitwalk_2
       rect:
         serializedVersion: 2
-        x: 1405
-        y: 824
-        width: 175
-        height: 390
+        x: 1210
+        y: 821
+        width: 517
+        height: 641
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: spriteshitwalk_3
       rect:
         serializedVersion: 2
-        x: 1974
-        y: 824
-        width: 243
-        height: 398
+        x: 1790
+        y: 821
+        width: 510
+        height: 641
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: spriteshitwalk_4
       rect:
         serializedVersion: 2
-        x: 102
+        x: 50
         y: 67
-        width: 410
-        height: 395
+        width: 512.5
+        height: 664
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: spriteshitwalk_5
       rect:
         serializedVersion: 2
-        x: 781
-        y: 70
-        width: 263
-        height: 392
+        x: 630
+        y: 67
+        width: 512.5
+        height: 664
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: spriteshitwalk_6
       rect:
         serializedVersion: 2
-        x: 1379
+        x: 1210
         y: 67
-        width: 234
-        height: 389
+        width: 512.5
+        height: 664
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,12 +289,12 @@ TextureImporter:
       name: spriteshitwalk_7
       rect:
         serializedVersion: 2
-        x: 1860
-        y: 65
-        width: 335
-        height: 405
+        x: 1790
+        y: 67
+        width: 512.5
+        height: 664
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
