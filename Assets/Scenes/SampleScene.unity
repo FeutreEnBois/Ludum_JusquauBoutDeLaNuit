@@ -402,6 +402,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b8ed08ee44487b4eb15173820ab44a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  healthBar: {fileID: 0}
 --- !u!114 &1706685136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -414,3 +417,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af53036c9396a54c8355e6041f24413, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 0}
+  rb: {fileID: 0}
+  firepoint: {fileID: 0}
+  ph: {fileID: 0}
+  shootCd: 1
