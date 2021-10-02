@@ -249,6 +249,7 @@ GameObject:
   - component: {fileID: 1706685132}
   - component: {fileID: 1706685131}
   - component: {fileID: 1706685134}
+  - component: {fileID: 1706685135}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -368,5 +369,35 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62ffa766746fb9d4690af956b1b8b1f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 0
+  climbSpeed: 0
+  jumpForce: 0
+  isJumping: 0
+  isGrounded: 0
+  isAerial: 0
+  isClimbing: 0
+  groundCheck: {fileID: 0}
+  groundCheckRadius: 0
+  collisionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  decorLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  rb: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  playerCollider: {fileID: 0}
+--- !u!114 &1706685135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706685129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8ed08ee44487b4eb15173820ab44a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
