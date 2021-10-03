@@ -6,6 +6,7 @@ public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private int maxHealth = 100;
     [SerializeField] private int currentHealth;
+    [SerializeField] private bool isInvincible;
 
     public HealthBar healthBar;
 
@@ -18,11 +19,16 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        if (isInvincible) return;
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
         CheckLife(currentHealth);
     }
 
+    public void ToggleInvincibilities()
+    {
+        isInvincible = !isInvincible;
+    }
     private void CheckLife(float currentHealth)
     {
         if (currentHealth <= 0)
