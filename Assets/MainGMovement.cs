@@ -18,7 +18,7 @@ public class MainGMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Debug.Log(transform.position);
         Vector3 dir = target.position - transform.position;
         
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
