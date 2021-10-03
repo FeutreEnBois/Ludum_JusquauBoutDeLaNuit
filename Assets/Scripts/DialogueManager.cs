@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
 	
 	public Text dialogueText;
-
+	public string ourScene;
 	private Queue<string> sentences;
 
 	void Start()
@@ -60,6 +61,7 @@ public class DialogueManager : MonoBehaviour
 
 	void EndDialogue()
 	{
-		
+		new WaitForSeconds(3);
+		SceneManager.LoadScene(ourScene);
 	}
 }

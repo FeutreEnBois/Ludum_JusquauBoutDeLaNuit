@@ -253,6 +253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1998382960}
+  ourScene: Test
 --- !u!4 &677718729
 Transform:
   m_ObjectHideFlags: 0
@@ -606,5 +607,5 @@ MonoBehaviour:
     - I've never had the courage to face them
     - But I can't take it anymore !
     - These monsters in my head...
-    - I'm going to deal with them !
+    - I'm going to deal with them!
     - Otherwise, I will never be free...
