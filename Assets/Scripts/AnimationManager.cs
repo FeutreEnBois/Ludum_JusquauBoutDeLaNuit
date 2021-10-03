@@ -8,17 +8,17 @@ public class AnimationManager : MonoBehaviour
     public void TriggerShootVar()
     {
         //Reset the "walk" trigger
-        animator.ResetTrigger("walk");
+        animator.ResetTrigger("dodge");
 
         //Send the message to the Animator to activate the trigger parameter named "shoot"
         animator.SetTrigger("shoot");
     }
-    public void TriggerWalkVar()
+    public void TriggerDodgeVar()
     {
         //Reset the "walk" trigger
         animator.ResetTrigger("shoot");
 
         //Send the message to the Animator to activate the trigger parameter named "shoot"
-        animator.SetTrigger("walk");
+        animator.SetTrigger("dodge");
     }
 }

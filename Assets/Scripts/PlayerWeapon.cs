@@ -10,9 +10,12 @@ public class PlayerWeapon : MonoBehaviour
     public AnimationManager am;
 
     private bool canShoot = true;
+    private bool canDodge = true;
+
 
     [Header("Cooldown : ")]
     [SerializeField] private float shootCd = 1f;
+    [SerializeField] private float dodgeCd = 1f;
 
     void LateUpdate()
     {
@@ -22,9 +25,11 @@ public class PlayerWeapon : MonoBehaviour
             StartCoroutine(ApplyCd((i) => { canShoot = i; }, shootCd));
             am.TriggerShootVar();
         }
-        if (Input.GetKey("e"))
+        if (Input.GetKey("e") && canDodge)
         {
-            ph.TakeDamage(20);
+            Debug.Log("Dodge");
+            StartCoroutine(ApplyCd((i) => { canDodge = i; }, dodgeCd));
+            am.TriggerDodgeVar();
         }
     }
 
