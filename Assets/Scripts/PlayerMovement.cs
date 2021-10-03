@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask collisionLayers;
     public LayerMask decorLayers;
     public Rigidbody2D rb;
-    //public Animator animator;
+    public Animator animator;
     public SpriteRenderer spriteRenderer;
     public CapsuleCollider2D playerCollider;
 
@@ -53,8 +53,7 @@ public class PlayerMovement : MonoBehaviour
         Flip(rb.velocity.x);
 
         float characterVelocity = Mathf.Abs(rb.velocity.x);
-        //animator.SetFloat("Speed", characterVelocity);
-        //animator.SetBool("isClimbing", isClimbing);
+        animator.SetFloat("speed", characterVelocity);
     }
 
 

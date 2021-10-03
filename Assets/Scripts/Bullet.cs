@@ -5,7 +5,6 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField] private float speed = 20f;
     public Rigidbody2D rb;
-    public int playerIndex = 0;
     [SerializeField] int damage = 10;
 
     IEnumerator DestroyBulletAfterTime()
@@ -17,7 +16,7 @@ public class Bullet : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
-        rb.velocity *= speed;
+        rb.velocity = transform.right * speed;
         transform.Rotate(0.0f, 0.0f, Mathf.Atan2(rb.velocity.y, rb.velocity.x) * Mathf.Rad2Deg - 90f);
         StartCoroutine(DestroyBulletAfterTime());
     }
