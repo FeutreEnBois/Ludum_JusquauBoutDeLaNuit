@@ -19,7 +19,9 @@ public class PlayerWeapon : MonoBehaviour
         if (Input.GetKey("a") && canShoot)
         {
             GameObject bullet = Instantiate(bulletPrefab, firepoint.position, Quaternion.identity);
-            bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(rb.velocity.x, 0);
+            bool isfacingRight = GetComponent<PlayerMovement>().facingRight;
+            int i = isfacingRight ? 1 : -1;
+            bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(i, 0);
             StartCoroutine(ApplyCd((i) => { canShoot = i; }, shootCd));
             am.TriggerShootVar();
         }
