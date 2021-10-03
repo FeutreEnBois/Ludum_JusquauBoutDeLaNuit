@@ -1,43 +1,31 @@
 fileFormatVersion: 2
-guid: 3d67c73d11b267a4fa2c89190588a7e1
+guid: 628387455dc3c9742b8d27c45a2e3974
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8448611450797553328
-    second: spritesheet_tir_1
+      213: -999122947291041073
+    second: spriteshitwalkmirror_0
   - first:
-      213: 4215500876468100865
-    second: spritesheet_tir_2
+      213: 4280582604980459348
+    second: spriteshitwalkmirror_1
   - first:
-      213: 8795061165310746172
-    second: spritesheet_tir_5
+      213: 8113068431651219882
+    second: spriteshitwalkmirror_2
   - first:
-      213: 2703049537973101251
-    second: spritesheet_tir_6
+      213: 9173898215814077404
+    second: spriteshitwalkmirror_3
   - first:
-      213: 5227310619743660964
-    second: spritesheet_tir_18
+      213: -186734399919359785
+    second: spriteshitwalkmirror_4
   - first:
-      213: -3725014614069911058
-    second: spritesheet_tir_19
+      213: 6120881205299346084
+    second: spriteshitwalkmirror_5
   - first:
-      213: 8771232634187820130
-    second: spritesheet_tir_20
+      213: 7877520291508026803
+    second: spriteshitwalkmirror_6
   - first:
-      213: -8644572160219318691
-    second: spritesheet_tir_24
-  - first:
-      213: 8857387587588856751
-    second: spritesheet_tir_0
-  - first:
-      213: -3708063323189178357
-    second: spritesheet_tir_3
-  - first:
-      213: -7537677814121562457
-    second: spritesheet_tir_4
-  - first:
-      213: 4848561150605751739
-    second: spritesheet_tir_7
+      213: 2329144550135241451
+    second: spriteshitwalkmirror_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -82,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -151,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spritesheet_tir_1
+      name: spriteshitwalkmirror_0
       rect:
         serializedVersion: 2
-        x: 608
-        y: 821
-        width: 518
-        height: 641
+        x: 0
+        y: 756
+        width: 593
+        height: 756
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0590aede5a080ca80800000000000000
-      internalID: -8448611450797553328
+      spriteID: fc2b6c719f66222f0800000000000000
+      internalID: -999122947291041073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_tir_2
+      name: spriteshitwalkmirror_1
       rect:
         serializedVersion: 2
-        x: 1196
-        y: 823
-        width: 514
-        height: 639
+        x: 593
+        y: 756
+        width: 593
+        height: 756
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10f9a3466b7708a30800000000000000
-      internalID: 4215500876468100865
+      spriteID: 4579391233fa76b30800000000000000
+      internalID: 4280582604980459348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_tir_5
+      name: spriteshitwalkmirror_2
       rect:
         serializedVersion: 2
-        x: 608
-        y: 67
-        width: 520
-        height: 664
+        x: 1186
+        y: 756
+        width: 593
+        height: 756
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3e1e2818855e0a70800000000000000
-      internalID: 8795061165310746172
+      spriteID: aa9a103f0c8679070800000000000000
+      internalID: 8113068431651219882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_tir_6
+      name: spriteshitwalkmirror_3
       rect:
         serializedVersion: 2
-        x: 1196
-        y: 67
-        width: 520
-        height: 664
+        x: 1779
+        y: 756
+        width: 593
+        height: 756
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c2ab21cb39238520800000000000000
-      internalID: 2703049537973101251
+      spriteID: cdb103762db305f70800000000000000
+      internalID: 9173898215814077404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_tir_0
+      name: spriteshitwalkmirror_4
       rect:
         serializedVersion: 2
-        x: 20
-        y: 821
-        width: 526
-        height: 641
+        x: 0
+        y: 0
+        width: 593
+        height: 756
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fab103c1513cbea70800000000000000
-      internalID: 8857387587588856751
+      spriteID: 7d8f5797d06986df0800000000000000
+      internalID: -186734399919359785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_tir_3
+      name: spriteshitwalkmirror_5
       rect:
         serializedVersion: 2
-        x: 1784
-        y: 821
-        width: 517
-        height: 641
+        x: 593
+        y: 0
+        width: 593
+        height: 756
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0097a0cd005a8cc0800000000000000
-      internalID: -3708063323189178357
+      spriteID: 4aa7b32c60db1f450800000000000000
+      internalID: 6120881205299346084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_tir_4
+      name: spriteshitwalkmirror_6
       rect:
         serializedVersion: 2
-        x: 20
-        y: 67
-        width: 520
-        height: 664
+        x: 1186
+        y: 0
+        width: 593
+        height: 756
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,20 +279,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aef0f1e6f9c46790800000000000000
-      internalID: -7537677814121562457
+      spriteID: 3bd744ed7f2925d60800000000000000
+      internalID: 7877520291508026803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_tir_7
+      name: spriteshitwalkmirror_7
       rect:
         serializedVersion: 2
-        x: 1784
-        y: 67
-        width: 520
-        height: 664
+        x: 1779
+        y: 0
+        width: 593
+        height: 756
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,8 +300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb57d9d7dac894340800000000000000
-      internalID: 4848561150605751739
+      spriteID: bea1955c0a8c25020800000000000000
+      internalID: 2329144550135241451
       vertices: []
       indices: 
       edges: []

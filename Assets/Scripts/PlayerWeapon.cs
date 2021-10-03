@@ -4,8 +4,8 @@ public class PlayerWeapon : MonoBehaviour
 {
     [Header("General References : ")]
     public GameObject bulletPrefab;
-    public Rigidbody2D rb;
     public Transform firepoint;
+    public Rigidbody2D rb;
     public PlayerHealth ph;
     public AnimationManager am;
 
@@ -18,10 +18,7 @@ public class PlayerWeapon : MonoBehaviour
     {
         if (Input.GetKey("a") && canShoot)
         {
-            GameObject bullet = Instantiate(bulletPrefab, firepoint.position, Quaternion.identity);
-            bool isfacingRight = GetComponent<PlayerMovement>().facingRight;
-            int i = isfacingRight ? 1 : -1;
-            bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(i, 0);
+            GameObject bullet = Instantiate(bulletPrefab, firepoint.position, firepoint.rotation);
             StartCoroutine(ApplyCd((i) => { canShoot = i; }, shootCd));
             am.TriggerShootVar();
         }

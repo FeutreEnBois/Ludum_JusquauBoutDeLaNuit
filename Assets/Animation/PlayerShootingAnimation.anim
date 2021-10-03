@@ -20,23 +20,23 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 8857387587588856751, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
+      value: {fileID: -6643671718810443841, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
     - time: 0.06666667
-      value: {fileID: -8448611450797553328, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
-    - time: 0.1
-      value: {fileID: 4215500876468100865, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
-    - time: 0.16666667
-      value: {fileID: -3708063323189178357, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
+      value: {fileID: 4953458061325613736, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
+    - time: 0.11666667
+      value: {fileID: -5006721400244933186, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
+    - time: 0.18333334
+      value: {fileID: 2454664221992889307, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
     - time: 0.23333333
-      value: {fileID: -7537677814121562457, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
-    - time: 0.25
-      value: {fileID: 8795061165310746172, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
+      value: {fileID: 5586473614965536112, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
     - time: 0.31666666
-      value: {fileID: 2703049537973101251, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
-    - time: 0.35
-      value: {fileID: 4848561150605751739, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
-    - time: 0.41666666
-      value: {fileID: 8857387587588856751, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
+      value: {fileID: -5452134743455201525, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
+    - time: 0.38333333
+      value: {fileID: 8427928259745916620, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
+    - time: 0.43333334
+      value: {fileID: 9144335104970105292, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
+    - time: 0.5
+      value: {fileID: -6643671718810443841, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -56,21 +56,21 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 8857387587588856751, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
-    - {fileID: -8448611450797553328, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
-    - {fileID: 4215500876468100865, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
-    - {fileID: -3708063323189178357, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
-    - {fileID: -7537677814121562457, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
-    - {fileID: 8795061165310746172, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
-    - {fileID: 2703049537973101251, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
-    - {fileID: 4848561150605751739, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
-    - {fileID: 8857387587588856751, guid: 3d67c73d11b267a4fa2c89190588a7e1, type: 3}
+    - {fileID: -6643671718810443841, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
+    - {fileID: 4953458061325613736, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
+    - {fileID: -5006721400244933186, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
+    - {fileID: 2454664221992889307, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
+    - {fileID: 5586473614965536112, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
+    - {fileID: -5452134743455201525, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
+    - {fileID: 8427928259745916620, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
+    - {fileID: 9144335104970105292, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
+    - {fileID: -6643671718810443841, guid: f6bc802894bda0946b284350aaeddea0, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.45
+    m_StopTime: 0.51666665
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -90,7 +90,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.45
+  - time: 0.48333332
     functionName: TriggerWalkVar
     data: 
     objectReferenceParameter: {fileID: 0}

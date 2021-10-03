@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 6c6b31912b7745c4f96915b85c0c13ef
+guid: f6bc802894bda0946b284350aaeddea0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4152199757849376707
-    second: spriteshitwalk_0
+      213: -6643671718810443841
+    second: spritesheet_tirmirror_0
   - first:
-      213: -6922826764296800484
-    second: spriteshitwalk_1
+      213: 4953458061325613736
+    second: spritesheet_tirmirror_1
   - first:
-      213: -6923420234497174289
-    second: spriteshitwalk_2
+      213: -5006721400244933186
+    second: spritesheet_tirmirror_2
   - first:
-      213: -7837138070264383331
-    second: spriteshitwalk_3
+      213: 2454664221992889307
+    second: spritesheet_tirmirror_3
   - first:
-      213: 7458519438052185233
-    second: spriteshitwalk_4
+      213: 5586473614965536112
+    second: spritesheet_tirmirror_4
   - first:
-      213: -7764511404033099294
-    second: spriteshitwalk_5
+      213: -5452134743455201525
+    second: spritesheet_tirmirror_5
   - first:
-      213: 5633027667886676578
-    second: spriteshitwalk_6
+      213: 8427928259745916620
+    second: spritesheet_tirmirror_6
   - first:
-      213: 3356818389470258380
-    second: spriteshitwalk_7
+      213: 9144335104970105292
+    second: spritesheet_tirmirror_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,169 +139,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spriteshitwalk_0
+      name: spritesheet_tirmirror_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 824
-        width: 513
-        height: 638
+        x: 0
+        y: 756
+        width: 593
+        height: 756
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d38ccecc15c6066c0800000000000000
-      internalID: -4152199757849376707
+      spriteID: fbf9efb75cfecc3a0800000000000000
+      internalID: -6643671718810443841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spriteshitwalk_1
+      name: spritesheet_tirmirror_1
       rect:
         serializedVersion: 2
-        x: 630
-        y: 824
-        width: 512
-        height: 638
+        x: 593
+        y: 756
+        width: 593
+        height: 756
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c17b5809cbd2def90800000000000000
-      internalID: -6922826764296800484
+      spriteID: 8aabb1bbcd73eb440800000000000000
+      internalID: 4953458061325613736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spriteshitwalk_2
+      name: spritesheet_tirmirror_2
       rect:
         serializedVersion: 2
-        x: 1210
-        y: 821
-        width: 517
-        height: 641
+        x: 1186
+        y: 756
+        width: 593
+        height: 756
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe45b048af11bef90800000000000000
-      internalID: -6923420234497174289
+      spriteID: ebded09c96d848ab0800000000000000
+      internalID: -5006721400244933186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spriteshitwalk_3
+      name: spritesheet_tirmirror_3
       rect:
         serializedVersion: 2
-        x: 1790
-        y: 821
-        width: 510
-        height: 641
+        x: 1779
+        y: 756
+        width: 593
+        height: 756
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d987332b274ec3390800000000000000
-      internalID: -7837138070264383331
+      spriteID: bdb2fb2ca18b01220800000000000000
+      internalID: 2454664221992889307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spriteshitwalk_4
+      name: spritesheet_tirmirror_4
       rect:
         serializedVersion: 2
-        x: 50
-        y: 67
-        width: 512.5
-        height: 664
+        x: 0
+        y: 0
+        width: 593
+        height: 756
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 194527779ebf18760800000000000000
-      internalID: 7458519438052185233
+      spriteID: 075fc178724278d40800000000000000
+      internalID: 5586473614965536112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spriteshitwalk_5
+      name: spritesheet_tirmirror_5
       rect:
         serializedVersion: 2
-        x: 630
-        y: 67
-        width: 512.5
-        height: 664
+        x: 593
+        y: 0
+        width: 593
+        height: 756
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e93324240aee3490800000000000000
-      internalID: -7764511404033099294
+      spriteID: b0789c466502654b0800000000000000
+      internalID: -5452134743455201525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spriteshitwalk_6
+      name: spritesheet_tirmirror_6
       rect:
         serializedVersion: 2
-        x: 1210
-        y: 67
-        width: 512.5
-        height: 664
+        x: 1186
+        y: 0
+        width: 593
+        height: 756
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26a1552a1d88c2e40800000000000000
-      internalID: 5633027667886676578
+      spriteID: cc6a1a2691406f470800000000000000
+      internalID: 8427928259745916620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spriteshitwalk_7
+      name: spritesheet_tirmirror_7
       rect:
         serializedVersion: 2
-        x: 1790
-        y: 67
-        width: 512.5
-        height: 664
+        x: 1779
+        y: 0
+        width: 593
+        height: 756
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc4afdf3a80d59e20800000000000000
-      internalID: 3356818389470258380
+      spriteID: cc1a0e6445437ee70800000000000000
+      internalID: 9144335104970105292
       vertices: []
       indices: 
       edges: []
